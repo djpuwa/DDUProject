@@ -4,7 +4,7 @@ import "./Navbar1.css";
 import "./Navbar2";
 import "../components/Sidebar";
 import "../components/SidebarMenu";
-import withSidebar from '../hoc/withSidebar';
+// import withSidebar from '../hoc/withSidebar';
 
 
 const Navbar1 = () => {
@@ -63,4 +63,4 @@ const Navbar1 = () => {
   )
 }
 
-export default withSidebar(Navbar1)
+export default Navbar1

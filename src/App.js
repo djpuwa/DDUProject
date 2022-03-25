@@ -7,7 +7,6 @@ import Navbar1 from './pages/Navbar1';
 // import './pages/Navbar2';
 // import Navbar2 from './pages/Navbar2';
 import Students from "./pages/Students";
-import Analytics from "./pages/Analytics";
 import FeesHead from "./pages/FeesHead";
 import Saved from "./pages/Saved";
 import Setting from "./pages/Setting";
@@ -33,10 +32,9 @@ function App() {
         <Route path="/Navbar" element={<Navbar1 />}></Route>
         <Route path="/resetpassword" element={<ResetPassword />}></Route>
 
-        <Route path="/table" element={<Table />}/>
+          <Route path="/table" element={<Table />}/>
           <Route path="/Registrar" element={<Registrar />} />
           <Route path="/Students" element={<Students />} />
-          <Route path="/analytics" element={<Analytics />} />
           <Route path="/subjectmaster" element={<SubjectMaster />} />
           <Route path="/feeshead" element={<FeesHead />} />
           <Route path="/saved" element={<Saved />} />
